@@ -6,6 +6,9 @@ import Logo from '../ui/Logo';
 import './Layout.css';
 import { FaBars } from 'react-icons/fa';
 
+
+
+
 function Layout({ children }) {
   const [email, setEmail] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
